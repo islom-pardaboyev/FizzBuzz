@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+</head>
+<body>
+
+    <h1 class="mt-[50px] text-[32px] mb-2 leading-[38px] text-center text-[#DC3444]">Fizz Buzz</h1>
+
+   <div class="">
+    <form id="form" class="flex align-center justify-center" action="">
+        <div class="w-[60vw] bg-[#F8F9FA] p-[20px] flex flex-col">
+            <input id="enter-number" class="rounded-md mb-4 text-black border px-3 py-2" type="number" placeholder="Raqam">
+            <button class="rounded-md text-white bg-[#269D40] px-3 py-2">Natijani ko'rsat</button>
+        </div>
+    </form>
+   </div>
+   <div class="flex align-center justify-center">
+    <h1 class="text-center border border-[#14a2b8] px-3 py-2 rounded-md text-[#14A2B8] mt-[30px]" id="result">0</h1>
+   </div>
+    
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                container: {
+                    container: true,
+                    padding: "2rem",
+                },
+            },
+        },
+    };
+    </script>
+    <script src="./script.js"></script>
+</body>
+</html>
